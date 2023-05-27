@@ -1,0 +1,730 @@
+*
+{
+    margin: 0%;
+}
+
+
+/* ------------------------------------------------------sign up form----------------------------------------------------------- */
+
+.bgcolor
+{
+     background-color:  #573d7d;
+}
+
+.main-containar
+{
+    width: 400px;
+    height: 600px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-65%);
+}
+
+.main2
+{
+    width: 400px;
+    height: 450px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form-title
+{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.form2
+{
+   padding-top: 5px; 
+   margin-left: 7%;
+}
+
+.form2 label
+{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form2 input
+{
+    width: 330px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 17px;
+    border-radius: 7px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.form2 input:hover
+{
+    border: 1px solid black;
+} 
+
+.form2 .btn
+{   
+    margin-left: 2px;
+    margin-top: 10%;
+    font-size: 20px;
+    width: 340px;
+    height: 35px;
+    padding: 5px;
+    color: white;
+    background: #4f4f4f;
+}
+
+.login-link
+{   
+    margin-top: 10%;
+    margin-left: 14%;
+}
+
+
+.main3
+{
+    width: 400px;
+    height: 390px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*======================================== Header================================= */
+
+.header
+{
+    background-color: #565252;
+    width: 100%;
+    height: 71px;
+}
+
+.title
+{
+    margin-left: 7%;
+}
+
+.title img
+{
+    margin-top: 1.2%;
+}
+
+.title h2
+{
+    margin-top: -2.4%;
+    margin-left: 45px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.header-menu
+{
+   margin-top: -2%; 
+   margin-left: 40%; 
+}
+
+.header-menu .menu a
+{
+    margin-left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-menu .menu a:hover
+{
+    color: red;
+}
+
+.login
+{   
+    margin-top: -3%;
+    margin-left: 77%;
+}
+
+.login a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.login img
+{
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+
+
+
+.slider-contant p
+{  
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    padding: 10px;
+    background-color: #565252;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.slider-contant2
+{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+.slider-contant2 p
+{
+    font-family: Inter;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+
+.read-more a
+{
+    position: absolute;
+    top: 47%;
+    left: 7%;
+    padding: 10px;
+    text-decoration: none;
+    background: #565252;
+    color: white;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 25px;
+}
+/*--------------------------------------------- Our Courses --------------------------*/
+.courses-title
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.courses-title h1
+{
+    font-family:sans-serif;
+    color: #4f4f4f;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.courses
+{
+    margin-left: 11%;
+    margin-top: -8%;
+}
+
+.contener
+{
+	position: relative;
+	max-width: 1000px;
+	margin: 100px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+
+.card
+{
+	position: relative;
+	margin: 20px 70px;
+	width: 250px;
+	height: 350px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(2000px);
+	transition: 1s;
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+	
+}
+
+.card:hover
+{
+	transform:  perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+}
+
+.card .imgbox
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	transform-origin: left;
+	z-index: 1;
+	transition: .75s;
+}
+
+.card:hover .imgbox
+{
+	z-index: 100%;
+	transform: rotateY(-135deg); 
+}
+
+.card .imgbox .img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card .detelis
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+.img
+{
+	height: 398px;
+	width: 297.6px;
+
+}
+
+.p
+{
+    margin-top: 5px;
+	text-transform:capitalize;
+}
+
+.p::first-letter
+{
+    font-size: 40px;
+    color: red;
+    font-weight:bold;
+}
+.table
+{
+	padding-left: 35%;
+}
+
+
+
+/* ------------------------------our teachers------------------------------ */
+
+
+.teachers-title
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.teachers-title h1
+{
+    font-family:sans-serif;
+    color: #4f4f4f;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+
+.teachers
+{
+    margin-top: -11%;
+    margin-left: 14%;
+}
+
+.teachers-box
+{
+	position: relative;
+	margin: 20px 80px;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+    border-radius: 1000px;
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+	
+}
+
+.t1
+{   
+    height: 200px;
+    width: 200px;
+    border-radius:1000px;
+}
+
+.name
+{
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #03AFE6;
+
+}
+
+.email
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+/* ---------------------------admission form---------------------------- */
+
+
+.form-title
+{
+    text-align: center;
+    padding-top: 5%;
+}
+.form-title h1
+{
+    font-family:sans-serif;
+    color: #4f4f4f;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.form
+{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.container
+{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 200px 200px ; 
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-gap: 60px;
+  
+}
+
+
+.c3,.c4,.c6,.c8,.c10
+{
+    margin-left: 400px;
+}
+
+.container label
+{
+    display: flex;
+    margin-top: 35px;
+    font-size: 24px;
+}
+
+
+.container input
+{
+    width: 600px;
+    height: 28px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #565252;
+    padding: 5px;
+}
+.container select
+{
+    width: 613px;
+    height: 41px;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #565252;
+}
+
+
+.container option
+{
+    font-size: 20px;
+}
+
+.container textarea
+{
+    margin-top: 5px;
+    width: 600px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    resize: none;
+}
+
+
+.btn
+{
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.btn input
+{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #565252;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* ----------------------------students list------------------------------- */
+.student-title
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.student-title h1
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #4f4f4f;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.search-box
+{
+    margin-left: 64%;
+    margin-top: 5%;
+}
+
+.search-box input
+{
+    width: 300px;
+    height: 34px;
+    font-size: 20px;
+    border:1px solid #565252;
+    border-radius: 5px;
+    padding-left : 4px; 
+}
+
+.search-box button
+{
+    width: 110px;
+    height: 35px;
+    margin-left: 1%;
+    font-size: 20px;
+    color: white;
+    background-color: #565252;
+    border-radius: 5px;
+}
+
+.hr-top
+{
+    width: 1300px;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.hr-bottom
+{
+    width: 1300px;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.student-information
+{
+    margin-top: -3%;
+}
+
+.studentlist
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 7%;
+    margin-top: 3.5%;
+    border-radius: 1000px;
+    background-color: gray;
+}
+
+.studentlist img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+}
+
+.stud-detail
+{
+    margin-left: 22%;
+    margin-top: -14%;
+}
+
+.stud-detail tr th
+{
+    text-align: left;
+    font-size: 17px;
+}
+
+#span
+{
+    font-weight: normal;
+}
+
+/* ===============================================Footer=========================================================== */
+
+.footer
+{
+    margin-top: 10%;
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+
+.footer-title
+{   
+    margin-left: 7%;
+}
+
+.footer-title h1
+{   
+    padding: 5% 0% 0% 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+    color: #000000;
+
+}
+
+.footer-title p
+{
+    padding-top: 3%;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.navigation
+{
+    margin-top: -17.9%;
+    margin-left: 7%;
+    padding-top: 3%;
+}
+
+.navigation h1
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.nav-menu
+{
+    margin-left: 48.6%;
+}
+
+.nav-menu a
+{
+    text-decoration: none;
+    padding-top: 1%;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.contact
+{
+    margin-top: -17.9%;
+    margin-left: 80%;
+    padding-top:3%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 39px;
+    
+    color: #000000;
+}
+.link
+{
+    padding-top: 1%;
+    margin-left: 81%;
+}
+
+.link a 
+{
+    margin-left: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.link a:hover
+{
+    
+    color: #3b5998;
+}
+
+
+.developer h3
+{
+    border-top: 1px solid #565252;
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top:13%;
+}

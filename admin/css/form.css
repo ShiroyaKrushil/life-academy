@@ -1,0 +1,99 @@
+
+
+.form-title
+{
+    text-align: center;
+    padding-top: 2%;
+}
+.form-title h1
+{
+    font-family:sans-serif;
+    color: #4f4f4f;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.form
+{
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.container
+{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 200px 200px ; 
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-gap: 60px;
+  
+}
+
+
+.c3,.c4,.c6,.c8,.c10
+{
+    margin-left: 400px;
+}
+
+.container label
+{
+    display: flex;
+    margin-top: 35px;
+    font-size: 24px;
+}
+
+
+.container input
+{
+    width: 600px;
+    height: 28px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #565252;
+    padding: 5px;
+}
+.container select
+{
+    width: 613px;
+    height: 41px;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #565252;
+}
+
+
+.container option
+{
+    font-size: 20px;
+}
+
+.container textarea
+{
+    margin-top: 5px;
+    width: 600px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    resize: none;
+}
+
+
+.btn
+{
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.btn input
+{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #565252;
+    color: white;
+    border-radius: 5px;
+}
